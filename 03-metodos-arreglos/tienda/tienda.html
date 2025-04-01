@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda</title>
+    <link rel="stylesheet" href="./tienda.css">
+</head>
+<body>
+    <h1>Tienda de productos</h1>
+    <input type="text" id="inputProducto" placeholder="Nombre del producto">
+    <button onclick="buscarProducto()">BUSCAR</button>
+    <button onclick="mostrarProductosMenor100()">Menos de $100</button><button onclick="mostrarProductosOrdenados()">Ordenar Alfabeticamente</button>
+    <select id="categoriaSelect">
+        <option value="">Seleccionar categoría</option>
+        <option value="Ropa">Ropa</option>
+        <option value="Electrónica">Electrónica</option>
+        <option value="Educación">Educación</option>
+    </select>
+    <button onclick="buscarCategoria()">Filtrar por Categoría</button>
+    <div class="container"></div>
+    <button onclick="mostrarNombres()">Mostrar solo nombres</button><button onclick="mostrarProductos()">Mostrar todos los productos</button>
+    <script src="./app.js"></script>
+</body>
+</html>
