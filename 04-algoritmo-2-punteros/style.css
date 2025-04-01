@@ -1,0 +1,71 @@
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #ad8a1f;
+    font-size: 2em;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Listas */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #fffefd11;
+    margin: 5px 0;
+    color: 	#D4AF37;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(124, 89, 12, 0.1);
+}
+
+/* Botón */
+button {
+    background-color: #d1b864;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #b98922;
+}
+
+/* Input */
+input {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+/* Títulos secundarios */
+h2, h3, h4 {
+    font-family: 'Cambria';
+    color: #fbcf71;
+}
